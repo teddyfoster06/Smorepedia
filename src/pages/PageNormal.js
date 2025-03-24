@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './PageNormal.css'
 import { useParams } from 'react-router-dom';
 import {getContent, listPages, pageExists, addPage, editPage} from "../middleware.js";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const input = `
 {^Header 1^} = h2
@@ -133,6 +133,7 @@ const loadContent = async (setContent, setInfobox, urlTitle, setSubsections, set
 
 function PageNormal() {
     const {urlTitle} = useParams();
+    const location = useLocation();
     const navigate = useNavigate();
     const[content, setContent] = useState("Loading...");
     const[infobox, setInfobox] = useState([]);
@@ -140,7 +141,7 @@ function PageNormal() {
     const[subsections, setSubsections] = useState([]);
     useEffect(() => {
         loadContent(setContent, setInfobox, urlTitle, setSubsections, setTitle)
-    }, [])
+    }, [location.pathname])
     useEffect(() => {
         console.log(subsections);
     }, [subsections]);
