@@ -1,0 +1,105 @@
+.Topbar{
+    display: flex;
+    width: 100%;
+    height: 12.5%;
+    align-items: center;
+    gap:10px;
+    
+    
+}
+.left{
+    width:29%;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+.left:hover{
+   cursor: pointer; 
+}
+.right{
+    width: 68.5%;
+    display: flex;
+    justify-content: end;
+    padding-right: 1.5%;
+    align-items: center;
+}
+.logo {
+    width: 10vh;
+    height: 10vh;
+    justify-self: start;
+    padding-right: 10px;
+}
+.search-bar{
+    justify-self: flex-end;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 50vw;
+    height: 5vh;
+   /* transition: 0.85s; */
+}
+
+/*.search-bar:focus-within {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+    /* border-radius: 25px; 
+    
+    
+    transform: translateY(-5px)
+}
+
+*/
+/* .results{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 153, 67);
+    position: absolute;
+    top: 8.49vh;
+    width: 50vw;
+    transform: translateY(-5px);
+    border-radius: 5px;
+    transition: 0.5s ease; 
+    
+} */
+
+/*.search-bar:focus-within + .results {
+    transform: translateY(-500px); 
+}
+*/
+.result {
+    z-index: 100;
+    pointer-events: auto;
+}
+
+
+/* label {
+    width: 10vw;  Adjust as needed 
+    height: 4vw; Adjust as needed 
+    position: relative;
+    display: block;
+    background: #ebebeb;
+    border-radius: 50vw; Use half of the height to create a perfect circle 
+    box-shadow: inset 0px 1.25vw 3.75vw rgba(0, 0, 0, 0.4),
+      inset 0px -1.25vw 3.75vw rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+  }
+  
+   Adjust the dimensions and position of the circular button relative to viewport width 
+  label:after {
+    content: "";
+    width: 4vw; 
+    height: 4vw; 
+    position: absolute;
+    top: 0.225vw; 
+    left: 10px; 
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    border-radius: 50%; Make it a circle 
+    box-shadow: 0px 1.25vw 2.5vw rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  } */

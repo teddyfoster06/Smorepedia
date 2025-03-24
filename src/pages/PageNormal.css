@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.info-header1{
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 600;
+}
+.info-header2{
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: 2.6vh;
+  font-weight: 400;
+
+}
+
+.edit-button{
+  height: 36px;
+  margin-left: 5vw;
+}
+.infobox{
+  background-color: #ffface;
+  width: 32vw;
+  margin-left: 3vw;
+  /* height: 40vh; */
+  border-style: solid;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(4vh, 4vh));
+  grid-template-columns: repeat(auto-fill, minmax(100%));
+  overflow-y: scroll;
+}
+.infobox-bar{
+  border-style: solid;
+  border-color: black;
+  margin-top: -3px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.All-2{
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: left;
+    height: 87.5%;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+}
+.pagetitle{
+  display: flex;
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Roboto Mono", monospace;
+  width: auto;
+  align-items: center;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 153, 67);
+    position: absolute;
+    top: 8.49vh;
+    width: 50vw;
+    transform: translateY(-5px);
+    border-radius: 5px;
+    transition: 0.5s ease; 
+    
+}
+
+.search-bar:focus-within + .results {
+    transform: translateY(-500px); 
+}
+
+
+
+.content-2{
+    /* width: 60%; */
+    background-color: #ffface;
+    align-self: flex-start;
+    /* height: 400vh; */
+    /* padding: 20px; */
+    font-size: 20px;
+    overflow-y: scroll;
+    height:97.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-style: solid;
+    margin-left: 1vw;
+}
+
+.logofont {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 30px;
+}
+p{
+  width: 54vw; 
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: color 0.15s ease; 
+    width: 54vw; 
+ 
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #000000; 
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: rgb(177, 99, 3); 
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: rgb(177, 99, 3); ; 
+  }
+  
+  h1:hover, h2:hover, h3:hover {
+    color: rgb(137, 42, 42); 
+  }

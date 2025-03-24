@@ -1,0 +1,50 @@
+.All-6{
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: center;
+    height: 87.5%;
+    width: 100vw;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    
+}
+.createTitle{
+    color: black;
+    font-size: 56px;
+    font-weight: 600;
+
+}
+.submitTitle{
+    width: 50vw;
+    height: 10vh;
+    font-size: 48px;
+
+}
+.inputTitle{
+    height: 10vh;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
+.content-2{
+    padding: 0;
+    margin: 4px;
+    width: 100vw;
+    background-color: #ffface;
+    align-self: flex-start;
+    height: 87.5vh;
+    overflow-y: scroll;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+}
+.editor{
+    resize: none;
+    
+}
+  

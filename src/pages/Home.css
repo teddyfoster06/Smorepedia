@@ -1,0 +1,17 @@
+.initial{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+  }
+  .createbutton{
+    height: 10vh;
+    font-size: 24px;
+    margin-top: 10vh;
+  }
+  .initialtext{
+    width: 100%;
+    text-align: center;
+  }
+  
