@@ -17,11 +17,11 @@
 
 .edit-button{
   height: 36px;
-  margin-left: 5vw;
+  margin-left: 20px;
 }
 .infobox{
   background-color: #ffface;
-  width: 32vw;
+  width: 35vw;
   margin-left: 3vw;
   /* height: 40vh; */
   border-style: solid;
@@ -42,13 +42,13 @@
   align-items: center;
 }
 
-.All-2{
+.All3{
     background-color: #FFFFF0;
     display: flex;
     justify-content: left;
     height: 87.5%;
-    width: 100vw;
-    flex-wrap: wrap;
+    overflow-y: hidden;
+    /* flex-wrap: wrap; */
     
 }
 .pagetitle{
@@ -58,6 +58,7 @@
   font-family: "Roboto Mono", monospace;
   width: auto;
   align-items: center;
+  justify-content: center;
 }
 .results{
     display: flex;
@@ -78,8 +79,8 @@
 
 
 
-.content-2{
-    /* width: 60%; */
+.content-3{
+    max-width: 60%;
     background-color: #ffface;
     align-self: flex-start;
     /* height: 400vh; */
@@ -91,6 +92,7 @@
     padding-right: 2vw;
     border-style: solid;
     margin-left: 1vw;
+    text-align: start;
 }
 
 .logofont {

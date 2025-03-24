@@ -45,11 +45,13 @@ const readInput = (input1, setSubsections) => {
         if(!inHeader){
             if (char === "{"){
              inHeader = true;
-             subsections.push(
-                <p>
-                    {currentText}
-                </p>
-             );
+             if(currentText !== ""){
+                subsections.push(
+                    <p>
+                        {currentText}
+                    </p>
+                 );
+             }
              
             currentHeader = "";
              currentText = "";
@@ -143,8 +145,8 @@ function PageNormal() {
         console.log(subsections);
     }, [subsections]);
     return (
-    <div className='All-2'>
-        <div className='content-2'>
+    <div className='All3'>
+        <div className='content-3'>
                 <div className='pagetitle'>
                     {title}
                     <button className='edit-button' onClick={() => {
